@@ -12,7 +12,7 @@ export default () => {
         // headerShown: false,
         tabBarStyle: {
           height: 55,
-          backgroundColor: 'white',
+          backgroundColor: '#F2F2F2',
           paddingBottom: 0, 
         },
         tabBarLabelStyle: {
