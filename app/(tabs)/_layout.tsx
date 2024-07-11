@@ -12,16 +12,19 @@ export default () => {
         // headerShown: false,
         tabBarStyle: {
           height: 55,
-          backgroundColor: '#F2F2F2',
+          backgroundColor: 'white',
+          shadowColor: 'white',
           paddingBottom: 0, 
+          borderTopWidth: 1
         },
         tabBarLabelStyle: {
-          height: 0, // Remove label space
+          height: 0, 
         },
         tabBarItemStyle: {
-          paddingVertical: 0, // Remove vertical padding
-          margin: 0, // Remove margin
-        }
+          paddingVertical: 0, 
+          margin: 0, 
+        },
+        headerShadowVisible: false
       }}>
       <Tabs.Screen 
         name="search"
